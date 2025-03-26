@@ -1,14 +1,9 @@
-# VITON-HD with CrewAI Agent
-
-This repository extends the [VITON-HD](https://github.com/shadow2496/VITON-HD) project with an AI agent built using CrewAI that simplifies the virtual try-on workflow.
-
 ## About VITON-HD
 
 VITON-HD is a high-resolution virtual try-on system that enables realistic clothing transfer onto images of models. It implements the paper "VITON-HD: High-Resolution Virtual Try-On via Misalignment-Aware Normalization" (CVPR 2021).
 
 The original implementation provides state-of-the-art virtual try-on capabilities at 1024x768 resolution, but requires multiple manual preprocessing steps. Our CrewAI agent automates these steps for a streamlined experience.
 
-![VITON-HD Examples](https://raw.githubusercontent.com/shadow2496/VITON-HD/main/assets/teaser.jpg)
 
 ## New Features
 
@@ -22,8 +17,8 @@ The original implementation provides state-of-the-art virtual try-on capabilitie
 ### 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/viton-hd-agent.git
-cd viton-hd-agent
+git clone https://github.com/saisreekantam/Virtual_trail_for_model.git
+cd VITON-HD
 ```
 
 ### 2. Create a conda environment:
@@ -49,7 +44,7 @@ pip install opencv-python crewai
 
 ### 4. Download datasets and checkpoints
 
-Download the necessary pre-trained model weights (*.pkl) and test images from [my Drive folder](https://drive.google.com/drive/folders/YOUR_DRIVE_FOLDER_URL) and unzip the files.
+Download the necessary pre-trained model weights (*.pkl) and test images from [my Drive folder]((https://drive.google.com/drive/folders/1Z1FfckL5fKHQO1cMK7NYpDM_q3rdnOxI?usp=drive_link)) (for checkpointes) and [my_Drive_folder]((https://drive.google.com/file/d/1VPavwYP53xMGncwo8mTEvrVgu65RxEU3/view?usp=drive_link)) and unzip the files.
 
 Place the contents in the following directories:
 - Model weights: `./checkpoints/`
